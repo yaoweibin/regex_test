@@ -1,0 +1,10 @@
+yaoweibin@yaoweibin:~/work/simlify/regex_test % time ./test_pcre
+0.366u 0.000s 0:00.36 100.0%    5+1170k 0+0io 0pf+0w
+yaoweibin@yaoweibin:~/work/simlify/regex_test % time ./test_re2
+0.905u 0.000s 0:00.90 100.0%    5+1146k 0+0io 0pf+0w
+yaoweibin@yaoweibin:~/work/simlify/regex_test % time ruby ruby_pcre.rb
+1.548u 0.022s 0:01.57 99.3%     5+1152k 0+0io 0pf+0w
+yaoweibin@yaoweibin:~/work/simlify/regex_test % time perl perl_pcre.pl
+0.830u 0.007s 0:00.83 100.0%    5+1160k 0+0io 0pf+0w
+yaoweibin@yaoweibin:~/work/simlify/regex_test % time ./pure_c
+0.099u 0.000s 0:00.09 100.0%    5+190k 0+0io 0pf+0w
